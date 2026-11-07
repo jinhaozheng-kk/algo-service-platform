@@ -1,0 +1,20 @@
+{
+  "config": {
+    "jobs": 240,
+    "concurrency": 8,
+    "capability": "mesh_inspect",
+    "artifact": "cube.stl"
+  },
+  "elapsed_s": 3.026,
+  "throughput_rps": 79.3,
+  "success": 240,
+  "failure": 0,
+  "success_rate": 1.0,
+  "latency_ms": {
+    "mean": 97.8,
+    "p50": 78.41,
+    "p95": 213.83,
+    "p99": 261.84,
+    "max": 316.04
+  }
+}

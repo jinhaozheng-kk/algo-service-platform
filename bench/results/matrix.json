@@ -1,0 +1,77 @@
+[
+  {
+    "label": "w1_c4",
+    "workers": 1,
+    "cpu_threads": 2,
+    "concurrency": 4,
+    "jobs": 120,
+    "config": {
+      "jobs": 120,
+      "concurrency": 4,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 0.935,
+    "throughput_rps": 128.3,
+    "success": 120,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 30.03,
+      "p50": 28.02,
+      "p95": 42.29,
+      "p99": 46.85,
+      "max": 48.3
+    }
+  },
+  {
+    "label": "w4_c8",
+    "workers": 4,
+    "cpu_threads": 4,
+    "concurrency": 8,
+    "jobs": 240,
+    "config": {
+      "jobs": 240,
+      "concurrency": 8,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 3.026,
+    "throughput_rps": 79.3,
+    "success": 240,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 97.8,
+      "p50": 78.41,
+      "p95": 213.83,
+      "p99": 261.84,
+      "max": 316.04
+    }
+  },
+  {
+    "label": "w4_c32",
+    "workers": 4,
+    "cpu_threads": 4,
+    "concurrency": 32,
+    "jobs": 320,
+    "config": {
+      "jobs": 320,
+      "concurrency": 32,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 5.166,
+    "throughput_rps": 61.95,
+    "success": 320,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 499.42,
+      "p50": 422.15,
+      "p95": 1080.56,
+      "p99": 1479.85,
+      "max": 2721.69
+    }
+  }
+]

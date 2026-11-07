@@ -1,0 +1,162 @@
+[
+  {
+    "label": "p1_w1_c8",
+    "procs": 1,
+    "workers": 1,
+    "threads": 2,
+    "config": {
+      "jobs": 200,
+      "concurrency": 8,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 2.861,
+    "throughput_rps": 69.91,
+    "success": 200,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 111.15,
+      "p50": 87.88,
+      "p95": 254.4,
+      "p99": 345.91,
+      "max": 410.86
+    },
+    "server": {
+      "run_ms": {
+        "avg": 3.04,
+        "p95": 5.01,
+        "max": 7.52
+      },
+      "queue": {
+        "started": true,
+        "workers": 1,
+        "capacity": 512,
+        "pending": 0,
+        "accepted": 200,
+        "rejected": 0,
+        "completed": 200
+      }
+    }
+  },
+  {
+    "label": "p1_w2_c8",
+    "procs": 1,
+    "workers": 2,
+    "threads": 2,
+    "config": {
+      "jobs": 200,
+      "concurrency": 8,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 2.223,
+    "throughput_rps": 89.96,
+    "success": 200,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 86.0,
+      "p50": 68.19,
+      "p95": 184.26,
+      "p99": 232.6,
+      "max": 309.32
+    },
+    "server": {
+      "run_ms": {
+        "avg": 2.94,
+        "p95": 4.98,
+        "max": 12.09
+      },
+      "queue": {
+        "started": true,
+        "workers": 2,
+        "capacity": 512,
+        "pending": 0,
+        "accepted": 200,
+        "rejected": 0,
+        "completed": 200
+      }
+    }
+  },
+  {
+    "label": "p1_w4_c8",
+    "procs": 1,
+    "workers": 4,
+    "threads": 4,
+    "config": {
+      "jobs": 200,
+      "concurrency": 8,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 2.477,
+    "throughput_rps": 80.76,
+    "success": 200,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 95.92,
+      "p50": 79.03,
+      "p95": 195.66,
+      "p99": 307.33,
+      "max": 391.43
+    },
+    "server": {
+      "run_ms": {
+        "avg": 3.34,
+        "p95": 6.51,
+        "max": 15.36
+      },
+      "queue": {
+        "started": true,
+        "workers": 4,
+        "capacity": 512,
+        "pending": 0,
+        "accepted": 200,
+        "rejected": 0,
+        "completed": 200
+      }
+    }
+  },
+  {
+    "label": "p4_w1_c8",
+    "procs": 4,
+    "workers": 1,
+    "threads": 2,
+    "config": {
+      "jobs": 200,
+      "concurrency": 8,
+      "capability": "mesh_inspect",
+      "artifact": "cube.stl"
+    },
+    "elapsed_s": 3.075,
+    "throughput_rps": 65.04,
+    "success": 200,
+    "failure": 0,
+    "success_rate": 1.0,
+    "latency_ms": {
+      "mean": 119.18,
+      "p50": 89.79,
+      "p95": 285.0,
+      "p99": 353.9,
+      "max": 595.0
+    },
+    "server": {
+      "run_ms": {
+        "avg": 2.8,
+        "p95": 4.11,
+        "max": 12.87
+      },
+      "queue": {
+        "started": true,
+        "workers": 1,
+        "capacity": 512,
+        "pending": 0,
+        "accepted": 1,
+        "rejected": 0,
+        "completed": 1
+      }
+    }
+  }
+]

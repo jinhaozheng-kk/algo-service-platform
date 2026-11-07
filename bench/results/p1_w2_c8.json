@@ -1,0 +1,36 @@
+{
+  "config": {
+    "jobs": 200,
+    "concurrency": 8,
+    "capability": "mesh_inspect",
+    "artifact": "cube.stl"
+  },
+  "elapsed_s": 2.223,
+  "throughput_rps": 89.96,
+  "success": 200,
+  "failure": 0,
+  "success_rate": 1.0,
+  "latency_ms": {
+    "mean": 86.0,
+    "p50": 68.19,
+    "p95": 184.26,
+    "p99": 232.6,
+    "max": 309.32
+  },
+  "server": {
+    "run_ms": {
+      "avg": 2.94,
+      "p95": 4.98,
+      "max": 12.09
+    },
+    "queue": {
+      "started": true,
+      "workers": 2,
+      "capacity": 512,
+      "pending": 0,
+      "accepted": 200,
+      "rejected": 0,
+      "completed": 200
+    }
+  }
+}

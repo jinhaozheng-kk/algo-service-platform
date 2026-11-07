@@ -1,0 +1,17 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      ALGO_WORKERS: "4"
+      ALGO_CPU_THREADS: "4"
+      ALGO_QUEUE_CAPACITY: "256"
+      ALGO_MAX_ARTIFACT_MB: "32"
+      ALGO_LOG_LEVEL: "INFO"
+    volumes:
+      - algo-data:/data
+    restart: unless-stopped
+
+volumes:
+  algo-data:

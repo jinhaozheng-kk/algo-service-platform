@@ -1,0 +1,29 @@
+﻿# 数据与产物
+data/
+*.db
+*.db-wal
+*.db-shm
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+*.egg-info/
+
+# 本地运行产物
+infra/
+data*/
+pytest-of-*/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+

@@ -4,6 +4,7 @@
 > 关注的问题不是“算法能不能跑”，而是**算法从 Demo 到规模化应用**中间的那一层工程：异步任务、幂等、重试、背压、超时、产物管理、版本化、指标与日志。
 
 <p align="left">
+  <a href="https://github.com/jinhaozheng-kk/algo-service-platform/actions/workflows/ci.yml"><img alt="ci" src="https://github.com/jinhaozheng-kk/algo-service-platform/actions/workflows/ci.yml/badge.svg"></a>
   <img alt="python" src="https://img.shields.io/badge/python-3.10%2B-blue">
   <img alt="fastapi" src="https://img.shields.io/badge/FastAPI-0.115%2B-009688">
   <img alt="tests" src="https://img.shields.io/badge/tests-21%20passed-brightgreen">
